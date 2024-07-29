@@ -11,6 +11,17 @@ class Site extends CI_Controller
         $this->load->model('Common_model');
         error_reporting(0);
     }
+
+    public function privacy_policy()
+    {
+        $this->load->view('theme/privacy_policy'); 
+    }
+    public function terms_and_Con()
+    {
+        $this->load->view('theme/terms_and_Con'); 
+    }
+
+    
     public function index()
     {
         $data['news'] = $this->news_model->news_active();

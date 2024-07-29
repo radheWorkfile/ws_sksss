@@ -15,7 +15,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="bottm">
-            <div class="container">
+            <div class="container"style="margin-left:14rem;"> 
                 <div class="row">
                     <div class="col-md-4 ">
                         <h2 class="title-foot">About NGO</h2>
@@ -24,7 +24,7 @@
                             Registration No. 1218 dated 22.03.2003. Registered under the Society Registration Act 21, 1860, Govt. of Bihar, Patna.Registration No. 031040030 dated 24.02.2007. Registered under the FCR Act 1976, Ministry of Home Affairs, New Delhi.
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="padding-left:8rem;">
                         <div class="links">
                             <h2 class="title-foot">Quick Links</h2>
                             <p class="border-bottom"></p>
@@ -41,7 +41,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4"style="padding-left:5rem;">
                         <div class="contact">
                             <h2 class="title-foot">Get in Touch With Us</h2>
                             <p class="border-bottom"></p>
@@ -57,14 +57,40 @@
                                 <i class="fa fa-envelope mr-2" aria-hidden="true"></i>
                                 kanhaishukla@gmail.com
                             </p>
-                            <p >  
+                           
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="contaienr">
+                <div class="row"><br>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-6">
+                        <style>
+                            .footer-text-man{font-weight:600;font-size:1.6rem;}
+                            .footer-text:hover{color:#c00b0b;}
+                        </style>
+                    <p class="footer-text-man">
+                        <span class="footer-text">Home</span> |
+                        <span><a href="<?php echo base_url();?>Site/privacy_policy"style="color:white;">Privacy Policy</a></span> |
+                        <span class="footer-text"><a href="<?php echo base_url();?>Site/terms_and_Con"style="color:white;">Term & Conditions</a></span> |
+                        <span class="footer-text">Cancel Donation</span> |
+                        <span class="footer-text"><a href="<?php echo base_url();?>Site/contact"style="color:white;">Contact Us</a></span> 
+                        
+                    </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-6">
+                    <p style="font-size:2rem;">  
                                 <a href="https://www.facebook.com/sudhir.kumarshukla.756?mibextid=kFxxJD" target="_blank" class="foot-social faFaIconF"><i class="fa fa-facebook"></i></a>
                                 <a href="https://www.instagram.com/kanhai_shukla_sansthan_?igsh=MWY2NWY1bm1sMG5qcA==" target="_blank" class="foot-social faFaIconI"><i class="fa fa-instagram"></i></a>
                                 <a href="mailto:kanhaishukla@gmail.com" target="_blank" class="foot-social faFaIconE"><i class="fa fa-envelope-o"></i></a>
                                 <a href="https://www.youtube.com/" target="_blank" class="foot-social faFaIconY"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                                 <a href="https://www.linkedin.com/in/late-kanhai-shukla-sansthan-2678ba65?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="foot-social faFaIconY"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </p>
-                        </div>
                     </div>
                 </div>
             </div>
